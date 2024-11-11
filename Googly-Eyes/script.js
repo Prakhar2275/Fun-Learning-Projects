@@ -23,8 +23,8 @@ const rightPupil = document.querySelector('#right-pupil');
     // Function to calculate pupil movement for an eye
 function movePupil(eye, pupil, mouseX, mouseY) {
 const eyeRect = eye.getBoundingClientRect();
-const eyeCenterX = eyeRect.left + eyeRect.width / 2;
-const eyeCenterY = eyeRect.top + eyeRect.height / 2;
+const eyeCenterX = eyeRect.left + eyeRect.width /2 ;
+const eyeCenterY = eyeRect.top + eyeRect.height/2;
 
 const deltaX = mouseX - eyeCenterX;
 const deltaY = mouseY - eyeCenterY;
