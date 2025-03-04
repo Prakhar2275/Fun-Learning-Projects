@@ -154,13 +154,14 @@
     font-size: 1.13em;
 }
 
-#textinput:focus-within .input-main{
+/* #textinput:focus-within {
     outline: 2px solid var(--primary-color);
-}
+} */
 
 .input-main{
-    border: 2px solid rgba(0, 0, 0, 0.263);
+    border: 2px solid #00000043;
     border-radius: 2em;
+    
     height: 3.7em;
     width: 95% ;
    
@@ -168,10 +169,10 @@
 
 .main-form{
     /* justify-content: space-between; */
-    i{
+    button i{
         height: 2em;
         width: 2em;
-        font-size: 1.1em;
+        font-size: 1.35em;
         border: 2px solid rgba(0, 0, 0, 0.382);
         border-radius: 50%;
         display: flex;
@@ -179,6 +180,10 @@
         justify-content: center;
         /* margin-left: 2e; */
         margin-left: 0.5em;
+        
+    }
+    button{
+        border: none;
     }
     
 
@@ -187,6 +192,9 @@
 
 #send{
     transform: rotate(270deg);
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
 }
 
 
