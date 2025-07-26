@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex-2{
+    display: flex;
+    align-items: center;
+}
+
+.head{
+    font-size: 2em;
+    font-weight: 700;
+    color: azure;
+    background-color: royalblue;
+    height: 3em;
+    width: 100%;
+
+}
+
+.option-panel{
+    width: 100%;
+    height: fit-content;
+    padding: 3em;
+    border: 2px solid balck;
+    margin-top:2em;
+    
+}
+
+.option{
+    height: 8em;
+    width: 8em;
+    border-radius: 5em;
+    /* margin-left:; */
+    border: 5px solid black;
+    font-weight: 600;
+    font-size: 2em;
+    transition: ease-in 10ms;
+    /* transform: scale(1); */
+    
+}
+
+.rock{
+    background-color: rgb(246, 150, 150);
+   
+}
+.paper{
+    margin-left: 4em;
+    background-color: rgb(110, 144, 237);
+
+}
+
+.scissor{
+    margin-left: 4em;
+    background-color: rgb(110, 237, 176);
+
+}
+
+.rock:hover{
+    background-color: rgb(247, 80, 80);
+    transform: scale(0.9688);
+
+}
+
+.scissor:hover{
+    transform: scale(0.9688);
+    background-color: rgb(66, 239, 156);
+
+}
+
+.paper:hover{
+    background-color: rgb(55, 103, 237);
+    transform: scale(0.9688);
+
+}
+
+
+.scoring-section {
+    width: 100%;
+    height: 3em;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 2em;
+
+}
+
+.your-score , .computer-score{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.4em;
+    
+}
+
+.your-score{
+    margin-right: 2.5em;
+}
+
+.computer-score{
+    margin-left: 2.5em;
+}
+
+.result-section{
+    width: 100%;
+    height: 4em;
+    margin-top: 5em;
+}
+
+.winning{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 100, 20);
+
+}
+
+
+.result-box {
+    
+    
+    font-size: 2em;
+    font-weight: 700;
+
+    color: white;
+    height: 3em;
+    width: fit-content;
+    padding-right: 3em;
+    padding-left: 3em;
+    border-radius: 1em;
+    border: 2px solid white;
+
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(121, 47, 190);
+}
+
+.draw{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(70, 70, 70) ;
+}
+.lost{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
